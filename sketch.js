@@ -48,7 +48,7 @@ function setup() {
 
   createP(`Next Pattern in ${nf(hours, 2)}h:${nf(minutes, 2)}m`);
   
-  createA('https://files.cargocollective.com/c989887/Kolam_zine--1-.png', 'Printable Zine with Instructions', '_blank');
+  createA('https://files.cargocollective.com/c989887/kolam-zine-instructions.pdf', 'Printable Zine with Instructions', '_blank');
 
   createP('<a href="https://creativecommons.org/licenses/by-nc/4.0/" target=_blank>CC-BY-NC</a> by Anu Reddy');
 }
