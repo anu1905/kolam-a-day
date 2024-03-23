@@ -15,12 +15,12 @@ html, body {
 h1, h2, h3 {
     color: #BC88C2;
     text-align: center;
-    margin: 30px;
+    margin: 2rem;
     font-family: Helvetica, sans-serif;
 }
 
 p {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.6;
    /* margin: 40px;*/
     text-align: center;
@@ -32,16 +32,16 @@ a, a:visited {
 }
 
 #defaultCanvas0 {
-  width: 400px !important;
-  height: 400px !important;
+  width: 25rem !important;
+  height: 25rem !important;
 }
 
 button {
-  font-size: 20px;
+  font-size: 1.2rem;
   border: none;
-  border-radius: 5px;
-  padding: 10px;
-  margin-left: 10px;
+  border-radius: 0.4rem;
+  padding: 0.7rem;
+  margin-left: 0.5rem;
   color: white;
   background: #BC88C2;
   cursor: pointer;
@@ -52,5 +52,25 @@ button:hover {
 }
 
 .centered {
-    padding: 10px;
+    padding: 0.5rem;
+}
+
+@media (max-width: 800px) {
+    h1, h2, h3 {
+        font-size: 6vw; /* Larger text on small screens */
+    }
+
+    p {
+        font-size: 3vw; /* Slightly larger paragraph text */
+    }
+
+    button {
+        font-size: 3vw; /* Larger font size for buttons */
+        padding: 0.75em 1.5em; /* Larger padding for better touch target */
+    }
+  
+    #defaultCanvas0 {
+      width: 75vw !important;
+      height: 75vw !important;
+    }
 }
