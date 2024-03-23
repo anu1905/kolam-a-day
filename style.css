@@ -55,7 +55,9 @@ button:hover {
     padding: 0.5rem;
 }
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 600px), 
+       only screen and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2), 
+       only screen and (max-device-width: 600px) and (min-resolution: 192dpi) {
     h1, h2, h3 {
         font-size: 6vw; /* Larger text on small screens */
     }
